@@ -1777,10 +1777,8 @@ body {
     justify-content: space-around
   }
 
-  .work-request--options .options-a,
-  .work-request--options .options-b {
-    display: block;
-    width: auto
+  .work-request--options .options-a{
+    width: 100%;
   }
 }
 

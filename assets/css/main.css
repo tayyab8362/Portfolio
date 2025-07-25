@@ -1779,6 +1779,7 @@ body {
 
   .work-request--options .options-a{
     width: 100%;
+    gap: 20px !important;
   }
 }
 

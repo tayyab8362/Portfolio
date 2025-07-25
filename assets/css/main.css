@@ -494,7 +494,6 @@ body {
   text-decoration: none;
   color: #fff;
   position: relative;
-  top: 15px;
 }
 
 .header--logo p {
@@ -1402,6 +1401,13 @@ body {
   }
 }
 
+
+@media (max-width:1023px){
+  .contact{
+    width: 100% !important;
+  }
+}
+
 .contact {
   position: fixed;
   top: 60%;
@@ -1641,6 +1647,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1648,19 +1655,6 @@ body {
   justify-content: space-between
 }
 
-.work-request--options .options-b {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 72%;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around
-}
 
 .work-request--options label:hover {
   border: 2px solid #fff;
